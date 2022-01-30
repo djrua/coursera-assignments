@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<!-- 3 mockups: desktop, tablet, and mobile. Implemention must be ONE page rather than 3, and it should be responsive for these 3 screen sizes
+
+	NO INLINE STYLES ALLOWED, the page must reference a CSS file, "styles.css"
+
+	DO NOT USE Twitter Boostrap CSS Framework, or reference Bootstrap
+	*Lecture 24 covers the responsive framework used in this assignment*
+
+	Desktop: 992px and above
+		Each of the 3 sections should take up equal space horizontally 
+		(use percentages to define width and use float property)
+	
+	Tablet: between 768px (min) and 991px (max)
+		First 2 sections should be in first row + take up equal size, third section should wrap around and take up the entire row alone
+
+	Mobile: less than 767px
+		Each section should stretch to fit the entire row, and stack vertically.
+
+	Site Layout: *reference media queries in Lecture 23*
+	
+	Page heading
+		
+		Section 1
+			Title region (top right corner on all views, take titles from mockup) *Lecture 22 explains relative + absolute positioning*
+			Text
+		
+		Section 2
+			Title region
+			Text
+		
+		Section 3
+			Title region
+			Text 
+	-->
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Module 2 Assignment Solution - Delaney Rua</title>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+	<h1 class="h1">Our Menu</h1>
+
+	<div class="row">
+		<div class="section-lg-4 section-md-6 section-xs-12">
+			<div class="section" id="chicken-section">
+				<h2 class="title" id="chicken">Chicken</h2>
+			  	<div><p class="info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+			  </div>
+		</div>
+
+		<div class="section-lg-4 section-md-6 section-xs-12">
+			<div class="section" id="beef-section">
+				<h2 class="title" id="beef">Beef</h2>
+		  		<div><p class="info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+		  	</div>
+		</div>
+
+		<div class="section-lg-4 section-md-12 section-xs-12">
+			<div class="section" id="sushi-section">
+				<h2 class="title" id="sushi">Sushi</h2>
+		  		<div><p class="info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+		  	</div>
+		</div>
+	</div>
+</body>
+</html>
